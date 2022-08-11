@@ -128,19 +128,18 @@ button {
 }
 
 .slick-slider {
-height: 300px !important;
-overflow: hidden;
-padding: 30px;
+  height: 300px !important;
+  overflow: hidden;
+  padding: 30px;
 }
 .slick-next {
-right: 0px !important;
-background: gainsboro !important;
+  right: 0px !important;
+  background: gainsboro !important;
 }
 .slick-prev {
   left: 0px !important;
   background: gainsboro !important;
-  }
-
+}
 
 .item {
   width: 200px !important;
@@ -148,7 +147,7 @@ background: gainsboro !important;
   margin-top: 30px;
   text-align: center;
   margin-left: -20px;
-  margin-right:-20px;
+  margin-right: -20px;
 }
 
 .info h1 {
@@ -244,9 +243,89 @@ background: gainsboro !important;
 
 
 @media screen and (max-width: 992px) {
+  body {
+    background: white;
+  }
 
-}
+  .box {
+    width: 100%;
+    background: none !important;
+  }
+  .main {
+    width: 100%;
+    background: none !important;
+    box-shadow: none !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
 
-@media screen and (max-width: 480px) {
+  .carousel {
+    display: none !important;
+  }
 
+  .carousel2 {
+    width: 100%;
+    height: 210px !important;
+    align-items: center;
+    justify-content: inherit;
+    display: flex !important;
+    text-align: center;
+    margin-top: 18px !important;
+  }
+
+  .carousel2 .slick-list {
+    width: 160px !important;
+  }
+
+  .carousel2 .slick-prev {
+    left: 10px !important;
+    background: gainsboro !important;
+  }
+
+  .carousel2 .slick-next {
+    right: 20px !important;
+    background: gainsboro !important;
+  }
+
+  .head {
+    width: 100%;
+    width: 100%;
+    height: 350px !important;
+  }
+
+  .head h1 {
+    font-family: merriweather;
+    font-size: 21px;
+    padding-top: 65px;
+    margin-bottom: 20px;
+  }
+  
+
+  .head p {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .head div {
+    width: 100% !important;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    display: block;
+  }
+
+  .tag button {
+    width: 90%;
+    height: 40px;
+    background: #f3f2fb !important;
+    margin-bottom: 15px;
+    margin-left: 20px;
+  }
+
+  .designBy p {
+    width: 100% !important;
+    font-family: mk;
+    font-size: 18px !important;
+  }
 }
