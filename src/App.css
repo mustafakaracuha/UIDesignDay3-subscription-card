@@ -1,0 +1,252 @@
+@font-face {
+  font-family: muli;
+  src: url(./assets/fonts/Muli-SemiBold.woff);
+}
+@font-face {
+  font-family: muliLight;
+  src: url(./assets/fonts/Muli-Light.woff);
+}
+@font-face {
+  font-family: day;
+  src: url(./assets/fonts/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: mk;
+  src: url(./assets/fonts/Bilal-d99MX.otf);
+}
+
+@font-face {
+  font-family: merriweather;
+  src: url(./assets/fonts/Merriweather-Bold.ttf);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2fb;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.box {
+  width: 50%;
+  height: 630px;
+  background: #21204c;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 200px;
+  border-radius: 20px;
+}
+
+.main {
+  width: 55%;
+  height: 570px;
+  background: white;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  overflow: hidden;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.head {
+  width: 100%;
+  height: 230px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+.head h1 {
+  font-family: merriweather;
+  font-size: 21px;
+  padding-top: 45px;
+}
+.head div {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.head p {
+  width: 400px;
+  font-family: muli;
+  font-size: 15px;
+  line-height: 21px;
+  color: #5e5d80;
+}
+
+.tag {
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+button {
+  width: auto;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background: #f3f2fb;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #575775;
+  margin-left: 15px;
+  font-family: muli;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.carousel {
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: inherit;
+  display: flex;
+  text-align: center;
+}
+
+.slick-list {
+  width: 750px !important;
+}
+
+.slick-slider {
+height: 300px !important;
+overflow: hidden;
+padding: 30px;
+}
+.slick-next {
+right: 0px !important;
+background: gainsboro !important;
+}
+.slick-prev {
+  left: 0px !important;
+  background: gainsboro !important;
+  }
+
+
+.item {
+  width: 200px !important;
+  height: 300px;
+  margin-top: 30px;
+  text-align: center;
+  margin-left: -20px;
+  margin-right:-20px;
+}
+
+.info h1 {
+  font-family: merriweather;
+  font-size: 15px;
+}
+.info p {
+  font-family: muli;
+  font-size: 14px;
+  color: #5e5d80;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  background-image: url("./assets/img/1.jpg");
+  border-radius: 100%;
+  background-size: cover;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+.avatar1 {
+  width: 80px;
+  height: 80px;
+  background-image: url("./assets/img/4.jpg");
+  border-radius: 100%;
+  background-size: cover;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+.avatar2 {
+  width: 80px;
+  height: 80px;
+  background-image: url("./assets/img/3.jpg");
+  border-radius: 100%;
+  background-size: cover;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+.avatar3 {
+  width: 80px;
+  height: 80px;
+  background-image: url("./assets/img/5.jpg");
+  border-radius: 100%;
+  background-size: cover;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+.viewContBtn {
+  width: 110px;
+  height: 30px;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  background: #21204c;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  margin-left: 50px;
+  font-family: muli;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.designBy {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #b7b7d6;
+}
+
+.designBy p {
+  width: 100% !important;
+  font-family: mk;
+  font-size: 35px !important;
+}
+
+.designBy h1 {
+  font-family: muli;
+  font-size: 20px !important;
+}
+.day {
+  font-family: day !important;
+}
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 480px) {
+
+}
