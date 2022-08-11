@@ -7,7 +7,7 @@
 
 ### Live
 
-🔗 https://www.uidesigndaily.com/posts/figma-subscription-section-card-day-1518
+🔗 https://ui-design-day3-subscriptioncard.vercel.app/
 
 ### Installation
 
